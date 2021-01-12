@@ -11,8 +11,10 @@ function petermiller_theme_enqueue() {
     $ver = PETERMILLER_THEME_DEV_MODE ? time() : THEME_VERSION;
 
     // STYLES
+    wp_register_style( 'font-awesome', $uri . '/css/font-awesome.css', [], $ver );
     wp_register_style( 'petermiller_theme_styles', $uri . '/style.css', [], $ver );
 
+    wp_enqueue_style( 'font-awesome' );
     wp_enqueue_style( 'petermiller_theme_styles' );
 
     // SCRIPTS

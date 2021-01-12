@@ -24,3 +24,13 @@
         max-width: 100%;
     }
 }
+
+.footer {
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 2.5rem 0;
+
+    .social-icon {
+        padding: 0 1rem;
+    }
+}
