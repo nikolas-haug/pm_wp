@@ -1,0 +1,26 @@
+/**
+*
+* THEME SPECIFIC COMPONENTS
+*
+*/
+
+.main {
+    background-color: $color-white;
+    padding-top: 8.5rem;
+
+    article {
+        padding: 2.5rem;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
